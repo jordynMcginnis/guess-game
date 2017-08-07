@@ -1,0 +1,519 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  height: 70px;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 6vh;
+  background-color: #e38cbf;
+  background-image: url('./photo/1.jpg');
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-attachment: fixed;
+  margin-top: -3%;
+}
+
+.App-intro {
+
+}
+
+.button {
+    background-color: #e497c1;
+    color: black;
+    border: 2px solid #8b4b92;
+    height: 30px;
+    width: 24%;
+    margin: 3px;
+}
+
+.button:hover {
+    background-color: #e497c1; /* Green */
+    color: white;
+}
+.box-border {
+  width: 70%;
+  margin-left: 2%;
+  border-color: pink;
+  float: left;
+  background-color: #e38cbf;
+  margin-bottom: 2%;
+  margin-top: 20px;
+}
+.box {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  height: 56.6%;
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-size: cover;
+
+  border-radius: 15px;
+}
+.message {
+  margin-top: 35%;
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+.loser {
+  background-image: url('./photo/rrrr.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  display: inline-block;
+  height: 15%;
+  width: 100%;
+  font-size: 100px;
+  font-family: 'Walter Turncoat', cursive;
+  color: purple;
+}
+.winner {
+  background-image: url('./photo/tg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    color: #8b4b92;
+}
+.winnertitle {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+}
+.secretMessage {
+  background-image: url('./photo/window.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #8b4b92;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+}
+.bottom {
+  position: fixed;
+  height: 150px;
+  bottom: 0;
+  width: 100%;
+  background-image: url('./photo/hi.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.box1 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  height: 56.6%;
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e38cbf;
+  background-image: url('./photo/jasmin.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box2 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/ariel.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box3 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/rap.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box4 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/snow.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box5{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf;
+  background-image: url('./photo/belle.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box6{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/sophie.png');
+  background-size: contain;
+  border-radius: 15px;
+}
+.box7 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  height: 56.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/j.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box8 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  height: 56.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf;
+  background-image: url('./photo/k.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.box9 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/m.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box10 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/n.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box11 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/u.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box12{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/dd.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box13{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/tt.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box14 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  height: 56.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/hh.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box15 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/scar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 15px;
+}
+.box16 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/mmm.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box17 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/fjh.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box18{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/okok.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box19{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/alic.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box20 {
+  box-sizing: border-box;
+  padding:7%;
+  width: 16.6%;
+  height: 56.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/jess.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box21 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/cin.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 15px;
+}
+.box22 {
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/van.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.box23{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/hello.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 15px;
+}
+.box24{
+  box-sizing: border-box;
+  padding: 7%;
+  width: 16.6%;
+  float: left;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e38cbf ;
+  background-image: url('./photo/joy.jpg');
+  background-size: cover;
+  border-radius: 15px;
+}
+.box25 {
+  width: 27%;
+  height: 16.6%;
+  float: left;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #e38cbf;
+    color: white;
+    width: 250px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    background-image: url('./photo/footer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #8b4b92;
+    color: #8b4b92;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8b4b92;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: pink}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+ ul {
+  margin-top: 58px;
+  list-style: none;
+ }
+li {
+  width: 25%;
+  height: 35%;
+  background-color: white;
+  float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #8b4b92;
+    color: #f5a2aa;
+    margin-left: 4%;
+    margin: 1%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
